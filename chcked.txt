@@ -1,0 +1,36 @@
+
+    <label for="bt"><i class="fas fa-arrow-alt-circle-left iccc" ></i></label>
+<input id="bt" type="checkbox">
+
+<div class="dv">sos</div>
+
+
+
+
+
+
+      
+#bt{
+display: none;
+}
+
+     #bt:checked ~.dv  {
+        width: 240px;
+        height: 100%;
+        background-color: rgb(30, 30, 53);
+        position: fixed;
+     }
+
+      .iccc{
+         font-size: 40px;
+         color: yellow;
+         margin-top: 30px;
+         position: fixed;
+         z-index: 20;
+     }
+         .dv{
+                width: 0px;
+                height: 100%;
+                background-color: rgb(176, 176, 187);
+                transition: all .9s;
+                }
